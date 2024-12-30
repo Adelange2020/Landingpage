@@ -118,16 +118,30 @@ button {
     display: flex;
     background-color: white;
     justify-content: center;
+    align-items: center;
     gap:50px;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    /* padding-bottom: 50px;
+    padding-top: 50px; */
     width: 80vw;
+    height: 35vh;
 }
 
 .content-field {
-    flex: 0 0 12vw;
+    flex: 0 1 12vw;
     aspect-ratio: 1/1;
     border: 2px solid #3882f6;
     border-radius: 5px 10px 5px 10px;
     box-shadow: 10px 10px 6px #e5e7eb;
+    height: 12vw;
+    
+}
+
+.content-field:hover {
+    flex: 0 1 15vw;
+    aspect-ratio: 1/1;
+    border: 2px solid #3882f6;
+    border-radius: 5px 10px 5px 10px;
+    box-shadow: 10px 10px 6px #e5e7eb;
+    height: 15vw;
+    transition: 0.5s;
 }
